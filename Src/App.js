@@ -3,9 +3,7 @@ import './App.css';
 
 import products from './data/products';
 
-/******************************
- * Ваша реализация компонента
- *****************************/
+
 const VIEW_LIST = 'view_list';
 const VIEW_MODULE = 'view_module';
 
@@ -64,9 +62,6 @@ class App extends React.Component {
   }
 }
 
-/******************************
- * Не вносить изменния ниже
- ******************************/
 const Button = props => {
   const { label } = props;
   return (
